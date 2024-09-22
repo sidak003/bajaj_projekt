@@ -23,7 +23,7 @@ const getBase64FileSize = (base64String) => {
 }
 // POST method
 app.get("/", (req, res) => {
-  res.send("Hello World!")
+  res.send("Hello Bajaj!")
 })
 
 app.post("/bfhl", async (req, res) => {
