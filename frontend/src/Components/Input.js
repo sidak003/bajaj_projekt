@@ -22,7 +22,7 @@ function Input() {
       if (parsedData.data && Array.isArray(parsedData.data)) {
         setValidFormat(true)
         // Send the JSON
-        const result = await fetch("https://bajaj-finserv-test-sigma.vercel.app/bfhl", {
+        const result = await fetch("https://bajaj-projekt-backend.vercel.app//bfhl", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
